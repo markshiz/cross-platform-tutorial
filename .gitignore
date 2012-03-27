@@ -1,0 +1,6 @@
+.DS_Store
+*.xcuserdatad
+*.swp
+android/obj/
+android/bin/
+android/libs/

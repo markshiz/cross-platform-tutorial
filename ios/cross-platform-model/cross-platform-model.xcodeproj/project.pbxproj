@@ -1,0 +1,581 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4D04BA91151979B1008BA0C9 /* cross_platform_model.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4D04BA8E151979B1008BA0C9 /* cross_platform_model.cpp */; };
+		4D04BA92151979B1008BA0C9 /* cross_platform_model.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D04BA8F151979B1008BA0C9 /* cross_platform_model.h */; };
+		4D04BAC515199472008BA0C9 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D04BAAD15199434008BA0C9 /* SenTestingKit.framework */; };
+		4D04BAC615199472008BA0C9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D04BAAF15199434008BA0C9 /* UIKit.framework */; };
+		4D04BAC715199472008BA0C9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D36EA9E15180CE400611EFB /* Foundation.framework */; };
+		4D04BACD15199472008BA0C9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4D04BACB15199472008BA0C9 /* InfoPlist.strings */; };
+		4D04BAD015199472008BA0C9 /* cross_platform_model_tests.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4D04BACF15199472008BA0C9 /* cross_platform_model_tests.mm */; };
+		4D04BAD71519952B008BA0C9 /* db.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 4D04BAD615199512008BA0C9 /* db.sqlite */; };
+		4D04BAE6151999A8008BA0C9 /* libcross-platform-model.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D36EA9B15180CE400611EFB /* libcross-platform-model.a */; };
+		4D04BAE7151999CA008BA0C9 /* libcorefoundationcpp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D770DAE15196E26006EFD6E /* libcorefoundationcpp.a */; };
+		4D04BAE8151999CA008BA0C9 /* libsqlite.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D770DFB151971E4006EFD6E /* libsqlite.a */; };
+		4D04BAE9151999CA008BA0C9 /* libsqlite3pp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D770E261519765E006EFD6E /* libsqlite3pp.a */; };
+		4D04BAEB1519A1B2008BA0C9 /* cross_platform_database.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D04BAEA1519A1B2008BA0C9 /* cross_platform_database.h */; };
+		4D36EA9F15180CE400611EFB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D36EA9E15180CE400611EFB /* Foundation.framework */; };
+		4D8EED5E151B0F5A0086F7B4 /* cross_platform_database_acquire.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D8EED5D151B0F5A0086F7B4 /* cross_platform_database_acquire.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4D04BAD81519979F008BA0C9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4D36EA9215180CE300611EFB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4D36EA9A15180CE400611EFB;
+			remoteInfo = "cross-platform-model";
+		};
+		4D04BAE0151997BC008BA0C9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4D770DA815196E26006EFD6E /* corefoundationcpp.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 4D36EAD015180D9200611EFB;
+			remoteInfo = corefoundationcpp;
+		};
+		4D04BAE2151997BF008BA0C9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4D770DF3151971E4006EFD6E /* sqlite.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 4D770DDC15197160006EFD6E;
+			remoteInfo = sqlite;
+		};
+		4D04BAE4151997C3008BA0C9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4D770E211519765D006EFD6E /* sqlite3pp.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 4D770E101519765D006EFD6E;
+			remoteInfo = sqlite3pp;
+		};
+		4D770DAD15196E26006EFD6E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4D770DA815196E26006EFD6E /* corefoundationcpp.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4D36EAD115180D9200611EFB;
+			remoteInfo = corefoundationcpp;
+		};
+		4D770DAF15196E26006EFD6E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4D770DA815196E26006EFD6E /* corefoundationcpp.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4D36EAE115180D9200611EFB;
+			remoteInfo = corefoundationcppTests;
+		};
+		4D770DFA151971E4006EFD6E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4D770DF3151971E4006EFD6E /* sqlite.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4D770DDD15197160006EFD6E;
+			remoteInfo = sqlite;
+		};
+		4D770E251519765E006EFD6E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4D770E211519765D006EFD6E /* sqlite3pp.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4D770E111519765D006EFD6E;
+			remoteInfo = sqlite3pp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4D04BA8E151979B1008BA0C9 /* cross_platform_model.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = cross_platform_model.cpp; sourceTree = "<group>"; };
+		4D04BA8F151979B1008BA0C9 /* cross_platform_model.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cross_platform_model.h; sourceTree = "<group>"; };
+		4D04BAAD15199434008BA0C9 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		4D04BAAF15199434008BA0C9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		4D04BAC415199472008BA0C9 /* cross-platform-model-tests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "cross-platform-model-tests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D04BACA15199472008BA0C9 /* cross-platform-model-tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "cross-platform-model-tests-Info.plist"; sourceTree = "<group>"; };
+		4D04BACC15199472008BA0C9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4D04BACE15199472008BA0C9 /* cross_platform_model_tests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = cross_platform_model_tests.h; sourceTree = "<group>"; };
+		4D04BACF15199472008BA0C9 /* cross_platform_model_tests.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = cross_platform_model_tests.mm; sourceTree = "<group>"; };
+		4D04BAD115199472008BA0C9 /* cross-platform-model-tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "cross-platform-model-tests-Prefix.pch"; sourceTree = "<group>"; };
+		4D04BAD615199512008BA0C9 /* db.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; name = db.sqlite; path = ../../sqlite/db.sqlite; sourceTree = "<group>"; };
+		4D04BAEA1519A1B2008BA0C9 /* cross_platform_database.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cross_platform_database.h; sourceTree = "<group>"; };
+		4D36EA9B15180CE400611EFB /* libcross-platform-model.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libcross-platform-model.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D36EA9E15180CE400611EFB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4D770DA815196E26006EFD6E /* corefoundationcpp.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = corefoundationcpp.xcodeproj; path = ../corefoundationcpp/corefoundationcpp.xcodeproj; sourceTree = "<group>"; };
+		4D770DF3151971E4006EFD6E /* sqlite.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = sqlite.xcodeproj; path = ../sqlite/sqlite.xcodeproj; sourceTree = "<group>"; };
+		4D770E211519765D006EFD6E /* sqlite3pp.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = sqlite3pp.xcodeproj; path = ../sqlite3pp/sqlite3pp.xcodeproj; sourceTree = "<group>"; };
+		4D8EED5D151B0F5A0086F7B4 /* cross_platform_database_acquire.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cross_platform_database_acquire.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4D04BAC015199472008BA0C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D04BAE6151999A8008BA0C9 /* libcross-platform-model.a in Frameworks */,
+				4D04BAC515199472008BA0C9 /* SenTestingKit.framework in Frameworks */,
+				4D04BAC615199472008BA0C9 /* UIKit.framework in Frameworks */,
+				4D04BAC715199472008BA0C9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D36EA9815180CE400611EFB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D04BAE7151999CA008BA0C9 /* libcorefoundationcpp.a in Frameworks */,
+				4D04BAE8151999CA008BA0C9 /* libsqlite.a in Frameworks */,
+				4D04BAE9151999CA008BA0C9 /* libsqlite3pp.a in Frameworks */,
+				4D36EA9F15180CE400611EFB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4D04BA8C151979B1008BA0C9 /* cross-platform-model */ = {
+			isa = PBXGroup;
+			children = (
+				4D8EED5D151B0F5A0086F7B4 /* cross_platform_database_acquire.h */,
+				4D04BA8E151979B1008BA0C9 /* cross_platform_model.cpp */,
+				4D04BA8F151979B1008BA0C9 /* cross_platform_model.h */,
+				4D04BAEA1519A1B2008BA0C9 /* cross_platform_database.h */,
+			);
+			name = "cross-platform-model";
+			path = "../../include/cross-platform-model";
+			sourceTree = "<group>";
+		};
+		4D04BAC815199472008BA0C9 /* cross-platform-model-tests */ = {
+			isa = PBXGroup;
+			children = (
+				4D04BACE15199472008BA0C9 /* cross_platform_model_tests.h */,
+				4D04BACF15199472008BA0C9 /* cross_platform_model_tests.mm */,
+				4D04BAC915199472008BA0C9 /* Supporting Files */,
+			);
+			path = "cross-platform-model-tests";
+			sourceTree = "<group>";
+		};
+		4D04BAC915199472008BA0C9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4D04BACA15199472008BA0C9 /* cross-platform-model-tests-Info.plist */,
+				4D04BACB15199472008BA0C9 /* InfoPlist.strings */,
+				4D04BAD115199472008BA0C9 /* cross-platform-model-tests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4D04BAD515199489008BA0C9 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				4D04BAD615199512008BA0C9 /* db.sqlite */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		4D36EA9015180CE300611EFB = {
+			isa = PBXGroup;
+			children = (
+				4D770DA715196E15006EFD6E /* Dependencies */,
+				4D04BA8C151979B1008BA0C9 /* cross-platform-model */,
+				4D04BAC815199472008BA0C9 /* cross-platform-model-tests */,
+				4D36EA9D15180CE400611EFB /* Frameworks */,
+				4D36EA9C15180CE400611EFB /* Products */,
+				4D04BAD515199489008BA0C9 /* Resources */,
+			);
+			sourceTree = "<group>";
+		};
+		4D36EA9C15180CE400611EFB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4D36EA9B15180CE400611EFB /* libcross-platform-model.a */,
+				4D04BAC415199472008BA0C9 /* cross-platform-model-tests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4D36EA9D15180CE400611EFB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4D36EA9E15180CE400611EFB /* Foundation.framework */,
+				4D04BAAD15199434008BA0C9 /* SenTestingKit.framework */,
+				4D04BAAF15199434008BA0C9 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4D770DA715196E15006EFD6E /* Dependencies */ = {
+			isa = PBXGroup;
+			children = (
+				4D770DF3151971E4006EFD6E /* sqlite.xcodeproj */,
+				4D770DA815196E26006EFD6E /* corefoundationcpp.xcodeproj */,
+				4D770E211519765D006EFD6E /* sqlite3pp.xcodeproj */,
+			);
+			name = Dependencies;
+			sourceTree = "<group>";
+		};
+		4D770DA915196E26006EFD6E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4D770DAE15196E26006EFD6E /* libcorefoundationcpp.a */,
+				4D770DB015196E26006EFD6E /* corefoundationcppTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4D770DF4151971E4006EFD6E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4D770DFB151971E4006EFD6E /* libsqlite.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4D770E221519765D006EFD6E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4D770E261519765E006EFD6E /* libsqlite3pp.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		4D36EA9915180CE400611EFB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D04BA92151979B1008BA0C9 /* cross_platform_model.h in Headers */,
+				4D04BAEB1519A1B2008BA0C9 /* cross_platform_database.h in Headers */,
+				4D8EED5E151B0F5A0086F7B4 /* cross_platform_database_acquire.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		4D04BAC315199472008BA0C9 /* cross-platform-model-tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D04BAD215199472008BA0C9 /* Build configuration list for PBXNativeTarget "cross-platform-model-tests" */;
+			buildPhases = (
+				4D04BABF15199472008BA0C9 /* Sources */,
+				4D04BAC015199472008BA0C9 /* Frameworks */,
+				4D04BAC115199472008BA0C9 /* Resources */,
+				4D04BAC215199472008BA0C9 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4D04BAD91519979F008BA0C9 /* PBXTargetDependency */,
+			);
+			name = "cross-platform-model-tests";
+			productName = "cross-platform-model-tests";
+			productReference = 4D04BAC415199472008BA0C9 /* cross-platform-model-tests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+		4D36EA9A15180CE400611EFB /* cross-platform-model */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D36EAA815180CE400611EFB /* Build configuration list for PBXNativeTarget "cross-platform-model" */;
+			buildPhases = (
+				4D36EA9715180CE400611EFB /* Sources */,
+				4D36EA9815180CE400611EFB /* Frameworks */,
+				4D36EA9915180CE400611EFB /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4D04BAE5151997C3008BA0C9 /* PBXTargetDependency */,
+				4D04BAE3151997BF008BA0C9 /* PBXTargetDependency */,
+				4D04BAE1151997BC008BA0C9 /* PBXTargetDependency */,
+			);
+			name = "cross-platform-model";
+			productName = "cross-platform-model";
+			productReference = 4D36EA9B15180CE400611EFB /* libcross-platform-model.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4D36EA9215180CE300611EFB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 4D36EA9515180CE300611EFB /* Build configuration list for PBXProject "cross-platform-model" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4D36EA9015180CE300611EFB;
+			productRefGroup = 4D36EA9C15180CE400611EFB /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 4D770DA915196E26006EFD6E /* Products */;
+					ProjectRef = 4D770DA815196E26006EFD6E /* corefoundationcpp.xcodeproj */;
+				},
+				{
+					ProductGroup = 4D770DF4151971E4006EFD6E /* Products */;
+					ProjectRef = 4D770DF3151971E4006EFD6E /* sqlite.xcodeproj */;
+				},
+				{
+					ProductGroup = 4D770E221519765D006EFD6E /* Products */;
+					ProjectRef = 4D770E211519765D006EFD6E /* sqlite3pp.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				4D36EA9A15180CE400611EFB /* cross-platform-model */,
+				4D04BAC315199472008BA0C9 /* cross-platform-model-tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		4D770DAE15196E26006EFD6E /* libcorefoundationcpp.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libcorefoundationcpp.a;
+			remoteRef = 4D770DAD15196E26006EFD6E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		4D770DB015196E26006EFD6E /* corefoundationcppTests.octest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = corefoundationcppTests.octest;
+			remoteRef = 4D770DAF15196E26006EFD6E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		4D770DFB151971E4006EFD6E /* libsqlite.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libsqlite.a;
+			remoteRef = 4D770DFA151971E4006EFD6E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		4D770E261519765E006EFD6E /* libsqlite3pp.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libsqlite3pp.a;
+			remoteRef = 4D770E251519765E006EFD6E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4D04BAC115199472008BA0C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D04BACD15199472008BA0C9 /* InfoPlist.strings in Resources */,
+				4D04BAD71519952B008BA0C9 /* db.sqlite in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4D04BAC215199472008BA0C9 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4D04BABF15199472008BA0C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D04BAD015199472008BA0C9 /* cross_platform_model_tests.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D36EA9715180CE400611EFB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D04BA91151979B1008BA0C9 /* cross_platform_model.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4D04BAD91519979F008BA0C9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4D36EA9A15180CE400611EFB /* cross-platform-model */;
+			targetProxy = 4D04BAD81519979F008BA0C9 /* PBXContainerItemProxy */;
+		};
+		4D04BAE1151997BC008BA0C9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = corefoundationcpp;
+			targetProxy = 4D04BAE0151997BC008BA0C9 /* PBXContainerItemProxy */;
+		};
+		4D04BAE3151997BF008BA0C9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = sqlite;
+			targetProxy = 4D04BAE2151997BF008BA0C9 /* PBXContainerItemProxy */;
+		};
+		4D04BAE5151997C3008BA0C9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = sqlite3pp;
+			targetProxy = 4D04BAE4151997C3008BA0C9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4D04BACB15199472008BA0C9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4D04BACC15199472008BA0C9 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4D04BAD315199472008BA0C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "cross-platform-model-tests/cross-platform-model-tests-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"_UNITTEST=1",
+				);
+				INFOPLIST_FILE = "cross-platform-model-tests/cross-platform-model-tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		4D04BAD415199472008BA0C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "cross-platform-model-tests/cross-platform-model-tests-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = "_UNITTEST=1";
+				INFOPLIST_FILE = "cross-platform-model-tests/cross-platform-model-tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+		4D36EAA615180CE400611EFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/../../include";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4D36EAA715180CE400611EFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/../../include";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4D36EAA915180CE400611EFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/cross_platform_model.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/../../include";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		4D36EAAA15180CE400611EFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/cross_platform_model.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/../../include";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4D04BAD215199472008BA0C9 /* Build configuration list for PBXNativeTarget "cross-platform-model-tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D04BAD315199472008BA0C9 /* Debug */,
+				4D04BAD415199472008BA0C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4D36EA9515180CE300611EFB /* Build configuration list for PBXProject "cross-platform-model" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D36EAA615180CE400611EFB /* Debug */,
+				4D36EAA715180CE400611EFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4D36EAA815180CE400611EFB /* Build configuration list for PBXNativeTarget "cross-platform-model" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D36EAA915180CE400611EFB /* Debug */,
+				4D36EAAA15180CE400611EFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4D36EA9215180CE300611EFB /* Project object */;
+}

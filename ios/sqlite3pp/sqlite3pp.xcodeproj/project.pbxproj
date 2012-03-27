@@ -1,0 +1,223 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4D04BAA315197BEA008BA0C9 /* sqlite3pp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4D04BA9F15197BEA008BA0C9 /* sqlite3pp.cpp */; };
+		4D04BAA415197BEA008BA0C9 /* sqlite3pp.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D04BAA015197BEA008BA0C9 /* sqlite3pp.h */; };
+		4D04BAA515197BEA008BA0C9 /* sqlite3ppext.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4D04BAA115197BEA008BA0C9 /* sqlite3ppext.cpp */; };
+		4D04BAA615197BEA008BA0C9 /* sqlite3ppext.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D04BAA215197BEA008BA0C9 /* sqlite3ppext.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4D04BA9F15197BEA008BA0C9 /* sqlite3pp.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = sqlite3pp.cpp; sourceTree = "<group>"; };
+		4D04BAA015197BEA008BA0C9 /* sqlite3pp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sqlite3pp.h; sourceTree = "<group>"; };
+		4D04BAA115197BEA008BA0C9 /* sqlite3ppext.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = sqlite3ppext.cpp; sourceTree = "<group>"; };
+		4D04BAA215197BEA008BA0C9 /* sqlite3ppext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sqlite3ppext.h; sourceTree = "<group>"; };
+		4D770E111519765D006EFD6E /* libsqlite3pp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libsqlite3pp.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4D770E0E1519765D006EFD6E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4D04BA9E15197BEA008BA0C9 /* sqlite3pp */ = {
+			isa = PBXGroup;
+			children = (
+				4D04BA9F15197BEA008BA0C9 /* sqlite3pp.cpp */,
+				4D04BAA015197BEA008BA0C9 /* sqlite3pp.h */,
+				4D04BAA115197BEA008BA0C9 /* sqlite3ppext.cpp */,
+				4D04BAA215197BEA008BA0C9 /* sqlite3ppext.h */,
+			);
+			name = sqlite3pp;
+			path = ../../include/sqlite3pp;
+			sourceTree = "<group>";
+		};
+		4D770E061519765D006EFD6E = {
+			isa = PBXGroup;
+			children = (
+				4D04BA9E15197BEA008BA0C9 /* sqlite3pp */,
+				4D770E121519765D006EFD6E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4D770E121519765D006EFD6E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4D770E111519765D006EFD6E /* libsqlite3pp.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		4D770E0F1519765D006EFD6E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D04BAA415197BEA008BA0C9 /* sqlite3pp.h in Headers */,
+				4D04BAA615197BEA008BA0C9 /* sqlite3ppext.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		4D770E101519765D006EFD6E /* sqlite3pp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D770E1E1519765D006EFD6E /* Build configuration list for PBXNativeTarget "sqlite3pp" */;
+			buildPhases = (
+				4D770E0D1519765D006EFD6E /* Sources */,
+				4D770E0E1519765D006EFD6E /* Frameworks */,
+				4D770E0F1519765D006EFD6E /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = sqlite3pp;
+			productName = sqlite3pp;
+			productReference = 4D770E111519765D006EFD6E /* libsqlite3pp.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4D770E081519765D006EFD6E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 4D770E0B1519765D006EFD6E /* Build configuration list for PBXProject "sqlite3pp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4D770E061519765D006EFD6E;
+			productRefGroup = 4D770E121519765D006EFD6E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4D770E101519765D006EFD6E /* sqlite3pp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4D770E0D1519765D006EFD6E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D04BAA315197BEA008BA0C9 /* sqlite3pp.cpp in Sources */,
+				4D04BAA515197BEA008BA0C9 /* sqlite3ppext.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		4D770E1C1519765D006EFD6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4D770E1D1519765D006EFD6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4D770E1F1519765D006EFD6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/sqlite3pp.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "";
+				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/../../include/";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		4D770E201519765D006EFD6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/sqlite3pp.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "";
+				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/../../include/";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4D770E0B1519765D006EFD6E /* Build configuration list for PBXProject "sqlite3pp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D770E1C1519765D006EFD6E /* Debug */,
+				4D770E1D1519765D006EFD6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4D770E1E1519765D006EFD6E /* Build configuration list for PBXNativeTarget "sqlite3pp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D770E1F1519765D006EFD6E /* Debug */,
+				4D770E201519765D006EFD6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4D770E081519765D006EFD6E /* Project object */;
+}

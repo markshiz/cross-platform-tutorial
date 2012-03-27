@@ -1,0 +1,6 @@
+[submodule "include/corefoundationlite"]
+	path = include/corefoundationlite
+	url = https://markshiz@github.com/markshiz/corefoundation-lite-android.git
+[submodule "include/boost-svn"]
+	path = include/boost-svn
+	url = https://github.com/ryppl/boost-svn

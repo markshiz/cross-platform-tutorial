@@ -1,0 +1,401 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4D04BA9915197A12008BA0C9 /* corefoundationcpp.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D04BA9515197A12008BA0C9 /* corefoundationcpp.h */; };
+		4D04BA9A15197A12008BA0C9 /* Primitives.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D04BA9615197A12008BA0C9 /* Primitives.h */; };
+		4D04BA9B15197A12008BA0C9 /* ReferenceCountedString.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4D04BA9715197A12008BA0C9 /* ReferenceCountedString.cpp */; };
+		4D04BA9C15197A12008BA0C9 /* ReferenceCountedString.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D04BA9815197A12008BA0C9 /* ReferenceCountedString.h */; };
+		4D36EAD515180D9200611EFB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D36EAD415180D9200611EFB /* Foundation.framework */; };
+		4D36EAE315180D9200611EFB /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D36EAE215180D9200611EFB /* SenTestingKit.framework */; };
+		4D36EAE615180D9200611EFB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D36EAD415180D9200611EFB /* Foundation.framework */; };
+		4D36EAE915180D9200611EFB /* libcorefoundationcpp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D36EAD115180D9200611EFB /* libcorefoundationcpp.a */; };
+		4D36EAEF15180D9200611EFB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4D36EAED15180D9200611EFB /* InfoPlist.strings */; };
+		4D36EAF215180D9200611EFB /* corefoundationcppTests.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4D36EAF115180D9200611EFB /* corefoundationcppTests.mm */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4D36EAE715180D9200611EFB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4D36EAC815180D9200611EFB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4D36EAD015180D9200611EFB;
+			remoteInfo = corefoundationcpp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4D04BA9515197A12008BA0C9 /* corefoundationcpp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = corefoundationcpp.h; sourceTree = "<group>"; };
+		4D04BA9615197A12008BA0C9 /* Primitives.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Primitives.h; sourceTree = "<group>"; };
+		4D04BA9715197A12008BA0C9 /* ReferenceCountedString.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ReferenceCountedString.cpp; sourceTree = "<group>"; };
+		4D04BA9815197A12008BA0C9 /* ReferenceCountedString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReferenceCountedString.h; sourceTree = "<group>"; };
+		4D36EAD115180D9200611EFB /* libcorefoundationcpp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libcorefoundationcpp.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D36EAD415180D9200611EFB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4D36EAE115180D9200611EFB /* corefoundationcppTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = corefoundationcppTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D36EAE215180D9200611EFB /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		4D36EAEC15180D9200611EFB /* corefoundationcppTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "corefoundationcppTests-Info.plist"; sourceTree = "<group>"; };
+		4D36EAEE15180D9200611EFB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4D36EAF015180D9200611EFB /* corefoundationcppTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = corefoundationcppTests.h; sourceTree = "<group>"; };
+		4D36EAF115180D9200611EFB /* corefoundationcppTests.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = corefoundationcppTests.mm; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4D36EACE15180D9200611EFB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D36EAD515180D9200611EFB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D36EADD15180D9200611EFB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D36EAE315180D9200611EFB /* SenTestingKit.framework in Frameworks */,
+				4D36EAE615180D9200611EFB /* Foundation.framework in Frameworks */,
+				4D36EAE915180D9200611EFB /* libcorefoundationcpp.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4D04BA9415197A12008BA0C9 /* corefoundationcpp */ = {
+			isa = PBXGroup;
+			children = (
+				4D04BA9515197A12008BA0C9 /* corefoundationcpp.h */,
+				4D04BA9615197A12008BA0C9 /* Primitives.h */,
+				4D04BA9715197A12008BA0C9 /* ReferenceCountedString.cpp */,
+				4D04BA9815197A12008BA0C9 /* ReferenceCountedString.h */,
+			);
+			name = corefoundationcpp;
+			path = ../../include/corefoundationcpp;
+			sourceTree = "<group>";
+		};
+		4D36EAC615180D9200611EFB = {
+			isa = PBXGroup;
+			children = (
+				4D04BA9415197A12008BA0C9 /* corefoundationcpp */,
+				4D36EAEA15180D9200611EFB /* corefoundationcppTests */,
+				4D36EAD315180D9200611EFB /* Frameworks */,
+				4D36EAD215180D9200611EFB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4D36EAD215180D9200611EFB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4D36EAD115180D9200611EFB /* libcorefoundationcpp.a */,
+				4D36EAE115180D9200611EFB /* corefoundationcppTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4D36EAD315180D9200611EFB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4D36EAD415180D9200611EFB /* Foundation.framework */,
+				4D36EAE215180D9200611EFB /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4D36EAEA15180D9200611EFB /* corefoundationcppTests */ = {
+			isa = PBXGroup;
+			children = (
+				4D36EAF015180D9200611EFB /* corefoundationcppTests.h */,
+				4D36EAF115180D9200611EFB /* corefoundationcppTests.mm */,
+				4D36EAEB15180D9200611EFB /* Supporting Files */,
+			);
+			path = corefoundationcppTests;
+			sourceTree = "<group>";
+		};
+		4D36EAEB15180D9200611EFB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4D36EAEC15180D9200611EFB /* corefoundationcppTests-Info.plist */,
+				4D36EAED15180D9200611EFB /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		4D36EACF15180D9200611EFB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D04BA9915197A12008BA0C9 /* corefoundationcpp.h in Headers */,
+				4D04BA9A15197A12008BA0C9 /* Primitives.h in Headers */,
+				4D04BA9C15197A12008BA0C9 /* ReferenceCountedString.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		4D36EAD015180D9200611EFB /* corefoundationcpp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D36EAF515180D9200611EFB /* Build configuration list for PBXNativeTarget "corefoundationcpp" */;
+			buildPhases = (
+				4D36EACD15180D9200611EFB /* Sources */,
+				4D36EACE15180D9200611EFB /* Frameworks */,
+				4D36EACF15180D9200611EFB /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = corefoundationcpp;
+			productName = corefoundationcpp;
+			productReference = 4D36EAD115180D9200611EFB /* libcorefoundationcpp.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		4D36EAE015180D9200611EFB /* corefoundationcppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D36EAF815180D9200611EFB /* Build configuration list for PBXNativeTarget "corefoundationcppTests" */;
+			buildPhases = (
+				4D36EADC15180D9200611EFB /* Sources */,
+				4D36EADD15180D9200611EFB /* Frameworks */,
+				4D36EADE15180D9200611EFB /* Resources */,
+				4D36EADF15180D9200611EFB /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4D36EAE815180D9200611EFB /* PBXTargetDependency */,
+			);
+			name = corefoundationcppTests;
+			productName = corefoundationcppTests;
+			productReference = 4D36EAE115180D9200611EFB /* corefoundationcppTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4D36EAC815180D9200611EFB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 4D36EACB15180D9200611EFB /* Build configuration list for PBXProject "corefoundationcpp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4D36EAC615180D9200611EFB;
+			productRefGroup = 4D36EAD215180D9200611EFB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4D36EAD015180D9200611EFB /* corefoundationcpp */,
+				4D36EAE015180D9200611EFB /* corefoundationcppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4D36EADE15180D9200611EFB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D36EAEF15180D9200611EFB /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4D36EADF15180D9200611EFB /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4D36EACD15180D9200611EFB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D04BA9B15197A12008BA0C9 /* ReferenceCountedString.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D36EADC15180D9200611EFB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D36EAF215180D9200611EFB /* corefoundationcppTests.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4D36EAE815180D9200611EFB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4D36EAD015180D9200611EFB /* corefoundationcpp */;
+			targetProxy = 4D36EAE715180D9200611EFB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4D36EAED15180D9200611EFB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4D36EAEE15180D9200611EFB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4D36EAF315180D9200611EFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/../../include/";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4D36EAF415180D9200611EFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/../../include/";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4D36EAF615180D9200611EFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/corefoundationcpp.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		4D36EAF715180D9200611EFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/corefoundationcpp.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		4D36EAF915180D9200611EFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "";
+				INFOPLIST_FILE = "corefoundationcppTests/corefoundationcppTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		4D36EAFA15180D9200611EFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "";
+				INFOPLIST_FILE = "corefoundationcppTests/corefoundationcppTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4D36EACB15180D9200611EFB /* Build configuration list for PBXProject "corefoundationcpp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D36EAF315180D9200611EFB /* Debug */,
+				4D36EAF415180D9200611EFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4D36EAF515180D9200611EFB /* Build configuration list for PBXNativeTarget "corefoundationcpp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D36EAF615180D9200611EFB /* Debug */,
+				4D36EAF715180D9200611EFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4D36EAF815180D9200611EFB /* Build configuration list for PBXNativeTarget "corefoundationcppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D36EAF915180D9200611EFB /* Debug */,
+				4D36EAFA15180D9200611EFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4D36EAC815180D9200611EFB /* Project object */;
+}

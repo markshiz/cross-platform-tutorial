@@ -1,0 +1,8 @@
+//
+// Prefix header for all source files of the 'cross-platform-model-tests' target in the 'cross-platform-model-tests' project
+//
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+    #import <Foundation/Foundation.h>
+#endif
