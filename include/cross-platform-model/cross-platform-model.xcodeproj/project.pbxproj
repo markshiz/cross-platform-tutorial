@@ -100,6 +100,7 @@
 		4D8EED5D151B0F5A0086F7B4 /* cross_platform_database_acquire.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cross_platform_database_acquire.h; sourceTree = "<group>"; };
 		4DC7B069152177EE0084A106 /* sqlite3pp.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = sqlite3pp.xcodeproj; path = ../../include/sqlite3pp/sqlite3pp.xcodeproj; sourceTree = "<group>"; };
 		4DC7B07B152178310084A106 /* corefoundationcpp.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = corefoundationcpp.xcodeproj; path = ../../include/corefoundationcpp/corefoundationcpp.xcodeproj; sourceTree = "<group>"; };
+		4DC7B093152179790084A106 /* libsqlite.a */ = {isa = PBXFileReference; lastKnownFileType = file; name = libsqlite.a; path = "../../include/sqlite/build/Release-iphoneos/libsqlite.a"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +108,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4DC7B094152179790084A106 /* libsqlite.a in Frameworks */,
 				4DC7B091152179790084A106 /* libcorefoundationcpp.a in Frameworks */,
 				4DC7B092152179790084A106 /* libsqlite3pp.a in Frameworks */,
 				4D04BAE6151999A8008BA0C9 /* libcross-platform-model.a in Frameworks */,
@@ -170,6 +172,7 @@
 		4D36EA9015180CE300611EFB = {
 			isa = PBXGroup;
 			children = (
+				4DC7B093152179790084A106 /* libsqlite.a */,
 				4D770DA715196E15006EFD6E /* Dependencies */,
 				4D04BA8C151979B1008BA0C9 /* cross-platform-model */,
 				4D04BAC815199472008BA0C9 /* cross-platform-model-tests */,
