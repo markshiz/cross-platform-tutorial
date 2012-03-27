@@ -14,7 +14,6 @@
 		4D04BAC715199472008BA0C9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D36EA9E15180CE400611EFB /* Foundation.framework */; };
 		4D04BACD15199472008BA0C9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4D04BACB15199472008BA0C9 /* InfoPlist.strings */; };
 		4D04BAD015199472008BA0C9 /* cross_platform_model_tests.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4D04BACF15199472008BA0C9 /* cross_platform_model_tests.mm */; };
-		4D04BAD71519952B008BA0C9 /* db.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 4D04BAD615199512008BA0C9 /* db.sqlite */; };
 		4D04BAE6151999A8008BA0C9 /* libcross-platform-model.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D36EA9B15180CE400611EFB /* libcross-platform-model.a */; };
 		4D04BAEB1519A1B2008BA0C9 /* cross_platform_database.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D04BAEA1519A1B2008BA0C9 /* cross_platform_database.h */; };
 		4D36EA9F15180CE400611EFB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D36EA9E15180CE400611EFB /* Foundation.framework */; };
@@ -93,11 +92,11 @@
 		4D04BACE15199472008BA0C9 /* cross_platform_model_tests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = cross_platform_model_tests.h; sourceTree = "<group>"; };
 		4D04BACF15199472008BA0C9 /* cross_platform_model_tests.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = cross_platform_model_tests.mm; sourceTree = "<group>"; };
 		4D04BAD115199472008BA0C9 /* cross-platform-model-tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "cross-platform-model-tests-Prefix.pch"; sourceTree = "<group>"; };
-		4D04BAD615199512008BA0C9 /* db.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; name = db.sqlite; path = ../../sqlite/db.sqlite; sourceTree = "<group>"; };
 		4D04BAEA1519A1B2008BA0C9 /* cross_platform_database.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cross_platform_database.h; sourceTree = "<group>"; };
 		4D36EA9B15180CE400611EFB /* libcross-platform-model.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libcross-platform-model.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D36EA9E15180CE400611EFB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		4D8EED5D151B0F5A0086F7B4 /* cross_platform_database_acquire.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cross_platform_database_acquire.h; sourceTree = "<group>"; };
+		4DB4319115218072000AD5B4 /* db.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; name = db.sqlite; path = ../../data/db.sqlite; sourceTree = "<group>"; };
 		4DC7B069152177EE0084A106 /* sqlite3pp.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = sqlite3pp.xcodeproj; path = ../../include/sqlite3pp/sqlite3pp.xcodeproj; sourceTree = "<group>"; };
 		4DC7B07B152178310084A106 /* corefoundationcpp.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = corefoundationcpp.xcodeproj; path = ../../include/corefoundationcpp/corefoundationcpp.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -162,7 +161,7 @@
 		4D04BAD515199489008BA0C9 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				4D04BAD615199512008BA0C9 /* db.sqlite */,
+				4DB4319115218072000AD5B4 /* db.sqlite */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -346,7 +345,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				4D04BACD15199472008BA0C9 /* InfoPlist.strings in Resources */,
-				4D04BAD71519952B008BA0C9 /* db.sqlite in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
