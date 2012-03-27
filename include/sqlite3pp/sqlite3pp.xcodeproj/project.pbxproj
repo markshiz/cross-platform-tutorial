@@ -11,13 +11,32 @@
 		4D04BAA415197BEA008BA0C9 /* sqlite3pp.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D04BAA015197BEA008BA0C9 /* sqlite3pp.h */; };
 		4D04BAA515197BEA008BA0C9 /* sqlite3ppext.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4D04BAA115197BEA008BA0C9 /* sqlite3ppext.cpp */; };
 		4D04BAA615197BEA008BA0C9 /* sqlite3ppext.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D04BAA215197BEA008BA0C9 /* sqlite3ppext.h */; };
+		4DC7B095152179A00084A106 /* libsqlite.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DC7B079152177EF0084A106 /* libsqlite.a */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4DC7B078152177EF0084A106 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4D1FCC45152176D1008D8AAC /* sqlite.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4D770DDD15197160006EFD6E;
+			remoteInfo = sqlite;
+		};
+		4DC7B087152178920084A106 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4D1FCC45152176D1008D8AAC /* sqlite.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 4D770DDC15197160006EFD6E;
+			remoteInfo = sqlite;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		4D04BA9F15197BEA008BA0C9 /* sqlite3pp.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = sqlite3pp.cpp; sourceTree = "<group>"; };
 		4D04BAA015197BEA008BA0C9 /* sqlite3pp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sqlite3pp.h; sourceTree = "<group>"; };
 		4D04BAA115197BEA008BA0C9 /* sqlite3ppext.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = sqlite3ppext.cpp; sourceTree = "<group>"; };
 		4D04BAA215197BEA008BA0C9 /* sqlite3ppext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sqlite3ppext.h; sourceTree = "<group>"; };
+		4D1FCC45152176D1008D8AAC /* sqlite.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = sqlite.xcodeproj; path = ../../include/sqlite/sqlite.xcodeproj; sourceTree = "<group>"; };
 		4D770E111519765D006EFD6E /* libsqlite3pp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libsqlite3pp.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -26,6 +45,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4DC7B095152179A00084A106 /* libsqlite.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,9 +64,18 @@
 			path = ../../include/sqlite3pp;
 			sourceTree = "<group>";
 		};
+		4D1FCC3D1521756E008D8AAC /* Dependencies */ = {
+			isa = PBXGroup;
+			children = (
+				4D1FCC45152176D1008D8AAC /* sqlite.xcodeproj */,
+			);
+			name = Dependencies;
+			sourceTree = "<group>";
+		};
 		4D770E061519765D006EFD6E = {
 			isa = PBXGroup;
 			children = (
+				4D1FCC3D1521756E008D8AAC /* Dependencies */,
 				4D04BA9E15197BEA008BA0C9 /* sqlite3pp */,
 				4D770E121519765D006EFD6E /* Products */,
 			);
@@ -56,6 +85,14 @@
 			isa = PBXGroup;
 			children = (
 				4D770E111519765D006EFD6E /* libsqlite3pp.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4DC7B075152177EF0084A106 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4DC7B079152177EF0084A106 /* libsqlite.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -86,6 +123,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				4DC7B088152178920084A106 /* PBXTargetDependency */,
 			);
 			name = sqlite3pp;
 			productName = sqlite3pp;
@@ -110,12 +148,28 @@
 			mainGroup = 4D770E061519765D006EFD6E;
 			productRefGroup = 4D770E121519765D006EFD6E /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 4DC7B075152177EF0084A106 /* Products */;
+					ProjectRef = 4D1FCC45152176D1008D8AAC /* sqlite.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				4D770E101519765D006EFD6E /* sqlite3pp */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		4DC7B079152177EF0084A106 /* libsqlite.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libsqlite.a;
+			remoteRef = 4DC7B078152177EF0084A106 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXSourcesBuildPhase section */
 		4D770E0D1519765D006EFD6E /* Sources */ = {
@@ -128,6 +182,14 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4DC7B088152178920084A106 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = sqlite;
+			targetProxy = 4DC7B087152178920084A106 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		4D770E1C1519765D006EFD6E /* Debug */ = {
