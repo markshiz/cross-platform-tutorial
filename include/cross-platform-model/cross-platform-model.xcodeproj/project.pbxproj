@@ -16,12 +16,11 @@
 		4D04BAD015199472008BA0C9 /* cross_platform_model_tests.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4D04BACF15199472008BA0C9 /* cross_platform_model_tests.mm */; };
 		4D04BAD71519952B008BA0C9 /* db.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 4D04BAD615199512008BA0C9 /* db.sqlite */; };
 		4D04BAE6151999A8008BA0C9 /* libcross-platform-model.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D36EA9B15180CE400611EFB /* libcross-platform-model.a */; };
-		4D04BAE7151999CA008BA0C9 /* libcorefoundationcpp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D770DAE15196E26006EFD6E /* libcorefoundationcpp.a */; };
-		4D04BAE8151999CA008BA0C9 /* libsqlite.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D770DFB151971E4006EFD6E /* libsqlite.a */; };
-		4D04BAE9151999CA008BA0C9 /* libsqlite3pp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D770E261519765E006EFD6E /* libsqlite3pp.a */; };
 		4D04BAEB1519A1B2008BA0C9 /* cross_platform_database.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D04BAEA1519A1B2008BA0C9 /* cross_platform_database.h */; };
 		4D36EA9F15180CE400611EFB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D36EA9E15180CE400611EFB /* Foundation.framework */; };
 		4D8EED5E151B0F5A0086F7B4 /* cross_platform_database_acquire.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D8EED5D151B0F5A0086F7B4 /* cross_platform_database_acquire.h */; };
+		4DC7B091152179790084A106 /* libcorefoundationcpp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DC7B084152178310084A106 /* libcorefoundationcpp.a */; };
+		4DC7B092152179790084A106 /* libsqlite3pp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DC7B074152177EE0084A106 /* libsqlite3pp.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,53 +31,53 @@
 			remoteGlobalIDString = 4D36EA9A15180CE400611EFB;
 			remoteInfo = "cross-platform-model";
 		};
-		4D04BAE0151997BC008BA0C9 /* PBXContainerItemProxy */ = {
+		4DC7B073152177EE0084A106 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 4D770DA815196E26006EFD6E /* corefoundationcpp.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = 4D36EAD015180D9200611EFB;
-			remoteInfo = corefoundationcpp;
-		};
-		4D04BAE2151997BF008BA0C9 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 4D770DF3151971E4006EFD6E /* sqlite.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = 4D770DDC15197160006EFD6E;
-			remoteInfo = sqlite;
-		};
-		4D04BAE4151997C3008BA0C9 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 4D770E211519765D006EFD6E /* sqlite3pp.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = 4D770E101519765D006EFD6E;
+			containerPortal = 4DC7B069152177EE0084A106 /* sqlite3pp.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4D770E111519765D006EFD6E;
 			remoteInfo = sqlite3pp;
 		};
-		4D770DAD15196E26006EFD6E /* PBXContainerItemProxy */ = {
+		4DC7B083152178310084A106 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 4D770DA815196E26006EFD6E /* corefoundationcpp.xcodeproj */;
+			containerPortal = 4DC7B07B152178310084A106 /* corefoundationcpp.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = 4D36EAD115180D9200611EFB;
 			remoteInfo = corefoundationcpp;
 		};
-		4D770DAF15196E26006EFD6E /* PBXContainerItemProxy */ = {
+		4DC7B085152178310084A106 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 4D770DA815196E26006EFD6E /* corefoundationcpp.xcodeproj */;
+			containerPortal = 4DC7B07B152178310084A106 /* corefoundationcpp.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = 4D36EAE115180D9200611EFB;
 			remoteInfo = corefoundationcppTests;
 		};
-		4D770DFA151971E4006EFD6E /* PBXContainerItemProxy */ = {
+		4DC7B089152178B80084A106 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 4D770DF3151971E4006EFD6E /* sqlite.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 4D770DDD15197160006EFD6E;
-			remoteInfo = sqlite;
+			containerPortal = 4DC7B07B152178310084A106 /* corefoundationcpp.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 4D36EAD015180D9200611EFB;
+			remoteInfo = corefoundationcpp;
 		};
-		4D770E251519765E006EFD6E /* PBXContainerItemProxy */ = {
+		4DC7B08B152178B80084A106 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 4D770E211519765D006EFD6E /* sqlite3pp.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 4D770E111519765D006EFD6E;
+			containerPortal = 4DC7B069152177EE0084A106 /* sqlite3pp.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 4D770E101519765D006EFD6E;
+			remoteInfo = sqlite3pp;
+		};
+		4DC7B08D152179310084A106 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4DC7B07B152178310084A106 /* corefoundationcpp.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 4D36EAD015180D9200611EFB;
+			remoteInfo = corefoundationcpp;
+		};
+		4DC7B08F152179310084A106 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4DC7B069152177EE0084A106 /* sqlite3pp.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 4D770E101519765D006EFD6E;
 			remoteInfo = sqlite3pp;
 		};
 /* End PBXContainerItemProxy section */
@@ -98,10 +97,9 @@
 		4D04BAEA1519A1B2008BA0C9 /* cross_platform_database.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cross_platform_database.h; sourceTree = "<group>"; };
 		4D36EA9B15180CE400611EFB /* libcross-platform-model.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libcross-platform-model.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D36EA9E15180CE400611EFB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		4D770DA815196E26006EFD6E /* corefoundationcpp.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = corefoundationcpp.xcodeproj; path = ../corefoundationcpp/corefoundationcpp.xcodeproj; sourceTree = "<group>"; };
-		4D770DF3151971E4006EFD6E /* sqlite.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = sqlite.xcodeproj; path = ../sqlite/sqlite.xcodeproj; sourceTree = "<group>"; };
-		4D770E211519765D006EFD6E /* sqlite3pp.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = sqlite3pp.xcodeproj; path = ../sqlite3pp/sqlite3pp.xcodeproj; sourceTree = "<group>"; };
 		4D8EED5D151B0F5A0086F7B4 /* cross_platform_database_acquire.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cross_platform_database_acquire.h; sourceTree = "<group>"; };
+		4DC7B069152177EE0084A106 /* sqlite3pp.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = sqlite3pp.xcodeproj; path = ../../include/sqlite3pp/sqlite3pp.xcodeproj; sourceTree = "<group>"; };
+		4DC7B07B152178310084A106 /* corefoundationcpp.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = corefoundationcpp.xcodeproj; path = ../../include/corefoundationcpp/corefoundationcpp.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +107,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4DC7B091152179790084A106 /* libcorefoundationcpp.a in Frameworks */,
+				4DC7B092152179790084A106 /* libsqlite3pp.a in Frameworks */,
 				4D04BAE6151999A8008BA0C9 /* libcross-platform-model.a in Frameworks */,
 				4D04BAC515199472008BA0C9 /* SenTestingKit.framework in Frameworks */,
 				4D04BAC615199472008BA0C9 /* UIKit.framework in Frameworks */,
@@ -120,9 +120,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4D04BAE7151999CA008BA0C9 /* libcorefoundationcpp.a in Frameworks */,
-				4D04BAE8151999CA008BA0C9 /* libsqlite.a in Frameworks */,
-				4D04BAE9151999CA008BA0C9 /* libsqlite3pp.a in Frameworks */,
 				4D36EA9F15180CE400611EFB /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -204,34 +201,25 @@
 		4D770DA715196E15006EFD6E /* Dependencies */ = {
 			isa = PBXGroup;
 			children = (
-				4D770DF3151971E4006EFD6E /* sqlite.xcodeproj */,
-				4D770DA815196E26006EFD6E /* corefoundationcpp.xcodeproj */,
-				4D770E211519765D006EFD6E /* sqlite3pp.xcodeproj */,
+				4DC7B07B152178310084A106 /* corefoundationcpp.xcodeproj */,
+				4DC7B069152177EE0084A106 /* sqlite3pp.xcodeproj */,
 			);
 			name = Dependencies;
 			sourceTree = "<group>";
 		};
-		4D770DA915196E26006EFD6E /* Products */ = {
+		4DC7B06A152177EE0084A106 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				4D770DAE15196E26006EFD6E /* libcorefoundationcpp.a */,
-				4D770DB015196E26006EFD6E /* corefoundationcppTests.octest */,
+				4DC7B074152177EE0084A106 /* libsqlite3pp.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		4D770DF4151971E4006EFD6E /* Products */ = {
+		4DC7B07C152178310084A106 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				4D770DFB151971E4006EFD6E /* libsqlite.a */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		4D770E221519765D006EFD6E /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				4D770E261519765E006EFD6E /* libsqlite3pp.a */,
+				4DC7B084152178310084A106 /* libcorefoundationcpp.a */,
+				4DC7B086152178310084A106 /* corefoundationcppTests.octest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -264,6 +252,8 @@
 			buildRules = (
 			);
 			dependencies = (
+				4DC7B08E152179310084A106 /* PBXTargetDependency */,
+				4DC7B090152179310084A106 /* PBXTargetDependency */,
 				4D04BAD91519979F008BA0C9 /* PBXTargetDependency */,
 			);
 			name = "cross-platform-model-tests";
@@ -282,9 +272,8 @@
 			buildRules = (
 			);
 			dependencies = (
-				4D04BAE5151997C3008BA0C9 /* PBXTargetDependency */,
-				4D04BAE3151997BF008BA0C9 /* PBXTargetDependency */,
-				4D04BAE1151997BC008BA0C9 /* PBXTargetDependency */,
+				4DC7B08A152178B80084A106 /* PBXTargetDependency */,
+				4DC7B08C152178B80084A106 /* PBXTargetDependency */,
 			);
 			name = "cross-platform-model";
 			productName = "cross-platform-model";
@@ -311,16 +300,12 @@
 			projectDirPath = "";
 			projectReferences = (
 				{
-					ProductGroup = 4D770DA915196E26006EFD6E /* Products */;
-					ProjectRef = 4D770DA815196E26006EFD6E /* corefoundationcpp.xcodeproj */;
+					ProductGroup = 4DC7B07C152178310084A106 /* Products */;
+					ProjectRef = 4DC7B07B152178310084A106 /* corefoundationcpp.xcodeproj */;
 				},
 				{
-					ProductGroup = 4D770DF4151971E4006EFD6E /* Products */;
-					ProjectRef = 4D770DF3151971E4006EFD6E /* sqlite.xcodeproj */;
-				},
-				{
-					ProductGroup = 4D770E221519765D006EFD6E /* Products */;
-					ProjectRef = 4D770E211519765D006EFD6E /* sqlite3pp.xcodeproj */;
+					ProductGroup = 4DC7B06A152177EE0084A106 /* Products */;
+					ProjectRef = 4DC7B069152177EE0084A106 /* sqlite3pp.xcodeproj */;
 				},
 			);
 			projectRoot = "";
@@ -332,32 +317,25 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
-		4D770DAE15196E26006EFD6E /* libcorefoundationcpp.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = libcorefoundationcpp.a;
-			remoteRef = 4D770DAD15196E26006EFD6E /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		4D770DB015196E26006EFD6E /* corefoundationcppTests.octest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = corefoundationcppTests.octest;
-			remoteRef = 4D770DAF15196E26006EFD6E /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		4D770DFB151971E4006EFD6E /* libsqlite.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = libsqlite.a;
-			remoteRef = 4D770DFA151971E4006EFD6E /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		4D770E261519765E006EFD6E /* libsqlite3pp.a */ = {
+		4DC7B074152177EE0084A106 /* libsqlite3pp.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
 			path = libsqlite3pp.a;
-			remoteRef = 4D770E251519765E006EFD6E /* PBXContainerItemProxy */;
+			remoteRef = 4DC7B073152177EE0084A106 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		4DC7B084152178310084A106 /* libcorefoundationcpp.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libcorefoundationcpp.a;
+			remoteRef = 4DC7B083152178310084A106 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		4DC7B086152178310084A106 /* corefoundationcppTests.octest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = corefoundationcppTests.octest;
+			remoteRef = 4DC7B085152178310084A106 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
@@ -415,20 +393,25 @@
 			target = 4D36EA9A15180CE400611EFB /* cross-platform-model */;
 			targetProxy = 4D04BAD81519979F008BA0C9 /* PBXContainerItemProxy */;
 		};
-		4D04BAE1151997BC008BA0C9 /* PBXTargetDependency */ = {
+		4DC7B08A152178B80084A106 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = corefoundationcpp;
-			targetProxy = 4D04BAE0151997BC008BA0C9 /* PBXContainerItemProxy */;
+			targetProxy = 4DC7B089152178B80084A106 /* PBXContainerItemProxy */;
 		};
-		4D04BAE3151997BF008BA0C9 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = sqlite;
-			targetProxy = 4D04BAE2151997BF008BA0C9 /* PBXContainerItemProxy */;
-		};
-		4D04BAE5151997C3008BA0C9 /* PBXTargetDependency */ = {
+		4DC7B08C152178B80084A106 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = sqlite3pp;
-			targetProxy = 4D04BAE4151997C3008BA0C9 /* PBXContainerItemProxy */;
+			targetProxy = 4DC7B08B152178B80084A106 /* PBXContainerItemProxy */;
+		};
+		4DC7B08E152179310084A106 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = corefoundationcpp;
+			targetProxy = 4DC7B08D152179310084A106 /* PBXContainerItemProxy */;
+		};
+		4DC7B090152179310084A106 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = sqlite3pp;
+			targetProxy = 4DC7B08F152179310084A106 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 

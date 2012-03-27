@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:cross-platform-model/cross-platform-model.xcodeproj">
+      location = "group:../include/cross-platform-model/cross-platform-model.xcodeproj">
    </FileRef>
 </Workspace>
